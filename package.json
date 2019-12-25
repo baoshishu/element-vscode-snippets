@@ -13,11 +13,12 @@
     "url": "https://github.com/baoshishu/element-vscode-snippets.git"
   },
   "scripts": {
-    "build": "vsce package -o vue-vscode-snippets-$npm_package_version.vsix",
+    "build": "vsce package -o element-vscode-snippets-$npm_package_version.vsix",
     "install": "yarn build && code --install-extension element-vscode-snippets-$npm_package_version.vsix"
   },
   "keywords": [
     "Vue",
+    "Element UI",
     "Vue 2",
     "Vue Snippets"
   ],
