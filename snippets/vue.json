@@ -1,0 +1,43 @@
+{
+  "element ui form": {
+    "prefix": "elform",
+    "body": [
+      "<template>",
+      "  <div>",
+      "    <el-form",
+      "      @submit.native.prevent=\"submit\"",
+      "      :rules=\"rules\"",
+      "      ref=\"form\"",
+      "      :model=\"form\"",
+      "      label-width=\"120px\"",
+      "    >",
+      "    </el-form>",
+      "  </div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "  data() {",
+      "    return {",
+      "      form: {},",
+      "      rules: [],",
+      "    }",
+      "  },",
+      "  methods: {",
+      "    submit() {",
+      "      this.refs.form.validate(valid => {",
+      "        if (valid) {",
+      "          console.log(valid)",
+      "        }",
+      "      })",
+      "    },",
+      "  },",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "element ui form"
+  }
+}

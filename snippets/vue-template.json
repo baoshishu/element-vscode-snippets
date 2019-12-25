@@ -1,0 +1,11 @@
+{
+  "element ui input": {
+    "prefix": "elinput",
+    "body": [
+      "<el-form-item label=\"${1:label}\" prop=\"${2:prop}\">",
+      "  <el-input v-model=\"form.${2}\"></el-input>",
+      "</el-form-item>"
+    ],
+    "description": "element ui input"
+  }
+}
