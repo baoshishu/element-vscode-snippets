@@ -1,5 +1,5 @@
 {
-  "element ui input": {
+  "el-input": {
     "prefix": "elinput",
     "body": [
       "<el-form-item label=\"${1:label}\" prop=\"${2}\">",
@@ -7,5 +7,30 @@
       "</el-form-item>"
     ],
     "description": "element ui input"
+  },
+  "el-select": {
+    "prefix": "elselect",
+    "body": [
+      "<el-form-item label=\"$1\" prop=\"$2\">",
+      "  <el-select v-model=\"form.$2\" >",
+      "    <el-option",
+      "      v-for=\"$3 in $4\"",
+      "      :key=\"$5\"",
+      "      :label=\"$6\"",
+      "      :value=\"$5\">",
+      "    </el-option>",
+      "  </el-select>",
+      "</el-form-item>"
+    ],
+    "description": "el-select"
+  },
+  "el-submit": {
+    "prefix": "elsubmit",
+    "body": [
+      "<el-form-item>",
+      "  <el-button type=\"primary\" native-type=\"submit\">${1:submit}</el-button>",
+      "</el-form-item>"
+    ],
+    "description": "submit button"
   }
 }
