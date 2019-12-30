@@ -3,7 +3,7 @@
   "displayName": "Element UI VSCode Snippets",
   "description": "Snippets that will supercharge your Element UI workflow",
   "icon": "images/vue-logo.png",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "ryanwang",
   "engines": {
     "vscode": "^1.14.0"

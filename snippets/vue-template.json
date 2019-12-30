@@ -32,5 +32,14 @@
       "</el-form-item>"
     ],
     "description": "submit button"
+  },
+  "detail link": {
+    "prefix": "eldetail",
+    "body": [
+      "<router-link :to=\"{ name: '${1:route}', params: { id } }\">",
+      "  <el-button type=\"text\">${2:label}</el-button>",
+      "</router-link>"
+    ],
+    "description": "detail link"
   }
 }
